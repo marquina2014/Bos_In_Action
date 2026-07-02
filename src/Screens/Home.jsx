@@ -105,7 +105,6 @@ function Home() {
     <section className="home">
       <header className="home-header">
         <div>
-          <span className="home-etiqueta">Sistema de Gestión BOS</span>
           <h1>Bienvenido a Bos In Action</h1>
           <p>
             Plataforma para registrar actividades, revisar formularios
