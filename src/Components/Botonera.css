@@ -1,0 +1,33 @@
+.botonera {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  width: 100%;
+}
+
+.botonera-boton {
+  min-height: 76px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  background: #151515;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 12px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
+  transition: all 0.25s ease;
+}
+
+.botonera-boton:hover {
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid #111111;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 900px) {
+  .botonera {
+    grid-template-columns: 1fr;
+  }
+}

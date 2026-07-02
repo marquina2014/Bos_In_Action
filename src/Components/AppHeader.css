@@ -1,0 +1,76 @@
+.app-header-superior {
+  width: 100%;
+  min-height: 82px;
+  background: #f7f7f7;
+  border-radius: 18px;
+  padding: 18px 24px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+}
+
+.app-header-marca {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-header-icono {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: #111111;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.22);
+  flex-shrink: 0;
+}
+
+.app-header-svg {
+  width: 28px;
+  height: 28px;
+}
+
+.app-header-texto h1 {
+  margin: 0;
+  color: #111111;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.6px;
+}
+
+.app-header-texto p {
+  margin: 4px 0 0;
+  color: #444444;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .app-header-superior {
+    padding: 16px 18px;
+  }
+
+  .app-header-icono {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+  }
+
+  .app-header-svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .app-header-texto h1 {
+    font-size: 22px;
+  }
+
+  .app-header-texto p {
+    font-size: 13px;
+  }
+}

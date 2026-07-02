@@ -1,0 +1,127 @@
+.menu-lateral {
+  width: 190px;
+  min-height: 100vh;
+  background: #0d0d0f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 14px;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 12px 0 35px rgba(0, 0, 0, 0.45);
+}
+
+.logo-bhp {
+  width: 150px;
+  height: 62px;
+  background: #ffffff;
+  color: #111111;
+  font-size: 42px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.menu-opciones {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-boton {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: #151515;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: default;
+  padding: 0 10px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  transition: all 0.25s ease;
+}
+
+.menu-boton.seleccionado {
+  cursor: pointer;
+  background: #ffffff;
+  color: #111111;
+}
+
+.menu-boton:hover {
+  background: #ffffff;
+  color: #111111;
+  transform: translateX(4px);
+}
+
+.menu-icono {
+  width: 24px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.usuario {
+  margin-top: auto;
+  margin-bottom: 28px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.usuario p {
+  margin: 12px 0 14px;
+}
+
+.usuario strong {
+  font-size: 16px;
+}
+
+.avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin: 0 auto;
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 900px) {
+  .menu-lateral {
+    width: 165px;
+  }
+
+  .logo-bhp {
+    width: 125px;
+    font-size: 34px;
+  }
+}.menu-lateral {
+  height: 100vh;
+  min-height: 100vh;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.menu-opciones {
+  flex: 1;
+  overflow: hidden;
+}
+
+.usuario {
+  flex-shrink: 0;
+}
